@@ -12,13 +12,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 ### Ontwerper:
-Sanne 't Hooft (vervangen door jouw naam)
+Milou Mulder
 
 #### Je startniveau:
-Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
-
-
-
+Mijn startniveau is: blauw
 
 # Je plan
 
@@ -26,20 +23,20 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/bdbschetsen1.pdf" width="375px" alt="ideetjes schetsen">
+  <img src="readme-images/bdbschetsen2.pdf" width="375px" alt="ideetjes schetsen">
+  <img src="readme-images/bobdebouwermindmap.pdf" width="375px" alt="ideetjes schetsen">
+  <img src="readme-images/" width="375px" alt="eerste versie van ontwerp">
 
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - punt 1: Nieuwe code leren kennen, maakt niet uit wat
+  - punt 2: Beter worden in animeren (css)
+  - Punt 3: Beter worden in het positioneren van items 
+  - Punt 4: ?
  
 </details>
-
-
-
 
 ## Voortgang/Feedback 1
 
@@ -47,7 +44,12 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Omschrijving van wat er nog niet op orde was (tekst en afbeeding(en)).
+
+
+  <!-- We kwamen er achter dat Bob de Bouwer niet heel veel veranderingen heeft gemaakt, door de jaren heen. 
+  Ik kom uit op 4 of 5 Bob's, na een tijdje zoeken. Dat zou  -->
+
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
@@ -57,6 +59,7 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
   ### Bevinding 2:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 
+
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
 
@@ -64,6 +67,17 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 
   ### Bevinding 3:
   ...
+
+   #### oplossing:
+
+  ### Bevinding 4:
+
+   #### oplossing:
+
+  ### Bevinding 5:
+
+   #### oplossing:
+
 
 </details>
 

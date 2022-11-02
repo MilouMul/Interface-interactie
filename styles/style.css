@@ -9,6 +9,7 @@
 
 body {
   margin:0;
+  background-color: rgb(0 191 255);
 }
 
 button:not([disabled]) {
@@ -24,7 +25,7 @@ button:not([disabled]) {
 /*********************/
 
 :root {
-  --color-headings:crimson
+  --color-headings: rgb(253 220 0);
 }
 
 
@@ -37,9 +38,76 @@ button:not([disabled]) {
 
 h1 {
   color:var(--color-headings);
+  text-align: center;
+  font-size: 4em;
+  padding: 0em;
+  margin-top: 0.3em;
+
+}
+
+h2{
+  text-align: center;
+  font-size: medium;
 }
 
 
 /* ... */
+
+ol {
+	margin:0;
+	padding:0;
+	list-style:none;
+	
+	display:grid;
+	grid-template-columns:9em 9em 9em;
+	grid-template-rows: 9em 9em 9em;
+}
+
+li {
+	background-color:maroon;
+	opacity:.2;
+	
+	transition:.5s;
+}
+
+li.zichtbaar {
+	opacity:1;
+}
+
+li:nth-of-type(1) {
+	grid-column-start:1;
+	grid-row-start:3;
+	
+}
+
+li:nth-of-type(2) {
+	grid-column-start:2;
+	grid-row-start:3;
+}
+
+
+li:nth-of-type(3) {
+	grid-column-start:2;
+	grid-row-start:2;
+	
+	transition-delay:.5s;
+
+}
+
+
+li:nth-of-type(4) {
+	grid-column-start:3;
+	grid-row-start:3;
+}
+
+li:nth-of-type(5) {
+	grid-column-start:3;
+	grid-row-start:2;
+}
+
+li:nth-of-type(6) {
+	grid-column-start:3;
+	grid-row-start:1;
+}
 
 
