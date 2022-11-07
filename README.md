@@ -173,8 +173,23 @@ Mijn startniveau is: blauw
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. Afbeelding Bob de bouwer 1997 
+https://www.youtube.com/watch?v=QSoH9aTrA-g 
+2. Afbeelding Bob de Bouwer 1998
+https://btb.fandom.com/wiki/Bob_the_Builder_(Original_Series)?file=Bob%2527s_1st_Prototype_Design_by_Curtis_Jobling_%2528Late_1997-Early_1998%2529%257E2.jpg
+3. Afbeelding Bob de Bouwer 1999 
+http://www.eslevents.nl/kinderactiviteit/meet%20and%20greet/Meet%20and%20greet%20met%20bob%20de%20bouwer.htm
+4. Afbeelding Bob de Bouwer nu 
+https://easybookings.nl/artiest/bob-de-bouwer/
+5. Bloemetjes bdb (gebruikt om over te tekenen)
+https://www.npo3.nl/bob-de-bouwer/POW_00325265
+6. Info Bob de Bouwer 1997 pilot versie
+https://btb.fandom.com/wiki/Pilot_Episode
+7. Info Bob de Bouwer 1998 
+https://btb.fandom.com/wiki/Bob_the_Builder_(Original_Series)?file=Bob%2527s_1st_Prototype_Design_by_Curtis_Jobling_%2528Late_1997-Early_1998%2529%257E2.jpg
+8. Info Bob de Bouwer 1999
+https://www.youtube.com/watch?v=RQBhafPQLPY
+9. Info Bob de Bouwer Nu
+https://www.ad.nl/buitenland/bob-de-bouwer-wordt-zelf-verbouwd-fans-verbijsterd~ae87c2e0/
 
 </details>
