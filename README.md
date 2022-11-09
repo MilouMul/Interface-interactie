@@ -39,6 +39,7 @@ Mijn startniveau is: blauw
   - Punt 3: Beter worden in het positioneren van items 
   - Punt 4: Beter worden in schaduws toevoegen 
   - Punt 5: Beter worden in een beetje responsive maken 
+  - Punt 6: Iets nieuws leren in JS
  
 </details>
 
@@ -70,7 +71,6 @@ Mijn startniveau is: blauw
   ### Bevinding 3:
   Door meer afbeeldingen te zoeken, heb ik meer inspiratie gekregen. Ik had twee ideetjes in mijn hoofd. Het eerste idee was om alle Bobjes 
   bij elkaar te zetten en een leuke achtergrond toe te voegen. Het tweede idee was om Bob steeds omhoog te laten bouwen met bakstenen. 
-
 
   #### oplossing:
   Uiteindelijk heb ik ervoor gekozen om het tweede idee uit te werken. Dit idee is wel het moeilijkste idee om uit te werken, maar ik ga het gewoon 
@@ -177,38 +177,49 @@ Mijn startniveau is: blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  
+  Code is netjes en goed leesbaar. De comments kunnen wel iets groter, zodat ze sneller te zien zijn. 
 
   #### oplossing:
-  
-
+  Ik zal de belangrijkste comments groter maken in mijn CSS en JS
 
 
   ### Bevinding 2:
-  
+  Er mist een foto bij de laatste Bob (mezelf)
 
   #### oplossing:
-  
+  Ik zal nog een foto van mezelf toevoegen toen ik klein was en het bob de bouwer spel aan het spelen was.
 
 
   ### Bevinding 3:
+  De eerste Bob is een beetje verstopt, omdat hij niet op een blokje staat. 
 
   #### oplossing:
+  Ik zou een klein stukje van een blokje toe kunnen voegen, maar dat ga ik niet meer doen 
 
 
-
-  ### Bevinding 2:
-  
-
-  #### oplossing:
-
-
-
-  ### Bevinding 2:
-  
+  ### Bevinding 4:
+  Het plaatje gaat iets over de tekst heen als je het scherm iets kleiner maakt. Als dat niet meer zo is, is het een beetje responsive (dus genoeg)
 
   #### oplossing:
-  
+  Ik ga het plaatje kleiner maken of iets in de css aanpassen zodat hij wel responsive is. 
+
+
+  ### Bevinding 5:
+  De eerste Bob heeft geen knop en de rest wel. Misschien kan je die nog toevoegen. 
+
+  #### oplossing:
+  Ik zou nog een knop kunnen toevoegen, maar dat ga ik niet meer doen.
+
+
+  ### Bevinding 6:
+  Je kan de knop een kleur geven als hij al een keer ingedrukt is geweest. Zo weet je dat je die al bekeken hebt. 
+
+  #### oplossing:
+  Ik kan nog een state toevoegen aan mijn buttons. Ik ga kijken of ik daar nog tijd voor heb. Dat zou dan met JS moeten omdat het geen link is (visited).
+
+
+  ### Bevinding 7:
+  Leuk concept, 5e Bob is heel uniek en dat hamer geluid is erg grappig. 
 
 </details>
 
@@ -221,22 +232,52 @@ Mijn startniveau is: blauw
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
 
+  <img src="readme-images/paginaVOORdeblokjes.png" width="375px" alt="final ontwerp voor de blokjes">
+
+  <img src="readme-images/paginaNAdeblokjes.png" width="375px" alt="final ontwerp na de blokjes">
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik heb tijdens dit vak veel geleerd. Onder andere:
+
+  - Positioneren van plaatjes en tekst
+  - Met JavaScript plaatjes en tekst laten veranderen 
+  - Met CSS/JavaScript de blokjes 1 voor 1 laten opkomen :)
+  - Plaatjes op en neer laten bewegen 
+  - Cursor laten veranderen in een plaatje 
+  - Schaduws toegevoegd (binnen en buiten) aan de blokjes 
+  - Leren werken met een grid
+  - Verschillende states toevoegen aan buttons 
+
+  Waar ik het meest trots op ben zijn de blokjes die 1 voor 1 opkomen en de plaatjes/tekst die verwisseld wordt in JS.
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Ik ben blij dat ik voor mijn tweede idee heb gekozen, ookal vond ik het wel lastig. Ik heb hier veel meer van geleerd. Ook zijn er nog een aantal dingen niet gelukt die ik eigenlijk wel had willen doen zoals:
+
+  - Het bord uit de bovenkant van het scherm laten animeren wanneer je klikt op een button.
+
+   <img src="readme-images/bordanimeren.jpeg" width="375px" alt="Voorbeeld bord animeren">
+
+  - De plaatjes in het bord een andere opmaak geven (los van elkaar)
+
+   <img src="readme-images/plaatjeshetzelfde.jpeg" width="375px" alt="Voorbeeld plaatjes dezelfde grote geven">
+
+  - De buttons onder de blokjes laten staan en de blokjes zelf kleiner maken, zodat je niet hoeft te scrollen.
+
+    <img src="readme-images/buttonsandersplaatsen.jpeg" width="375px" alt="Voorbeeld button anders plaatsen">
+
+  - De laatste 2 Bobjes springen nu iets lager dan de rest. Dat had ik hetzelfde willen maken.
+
+  <img src="readme-images/bobanimeren.jpeg" width="375px" alt=" Voorbeeld van bob animeren">
+
+  - Knop toevoegen aan het eerste Bobje 
+  - Nog een blokje toevoegen, zodat Bob 1 ook op een blokje staat.
+
+
 </details>
-
-
 
 
 ## Bronnenlijst
@@ -276,7 +317,5 @@ https://btb.fandom.com/wiki/Bob_the_Builder_(Original_Series)?file=Bob%2527s_Ear
 https://www.moviemeter.nl/series//series/show/863
 16. Bob de Bouwer plaatje bord 4
 https://www.primevideo.com/detail/Bob-De-Bouwer/0QKCMAMAO86TT72DRCGUQXX5M5?_encoding=UTF8&language=nl_NL
-17. Bob de Bouwer plaatje bord 5
-?????????
 
 </details>

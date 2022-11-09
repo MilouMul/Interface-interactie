@@ -1,10 +1,10 @@
+
 @font-face {
   font-family: 'BobFont';
   src: url('../Fonts/chango-regular-webfont.woff2') format('woff2'),
        url('../Fonts/chango-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 
 /*************/
@@ -18,20 +18,17 @@
 
 body {
   margin:0;
-  background-color: var(--backgroundcolor) ;
+  background-color: var(--backgroundcolor);
+}
+
+main {
+  padding-top: 4em;
+  position: relative;
 }
 
 button:not([disabled]) {
   cursor:pointer;
 }
-
-main{
-  position: relative;
-}
-
-
-
-
 
 /*********************/
 /* CUSTOM PROPERTIES */
@@ -54,7 +51,7 @@ main{
   --randjetekst: red;
 }
 
-@media (prefers-color-scheme:dark){
+@media (prefers-color-scheme:dark) {
   :root{
   --backgroundcolor: rgb(16, 52, 125);
   --color-headings: rgb(251, 166, 19);
@@ -62,15 +59,13 @@ main{
   }
 }
 
-
-
-
-
 /********************/
 /* ALGEMENE STYLING */
 /********************/
 
+/************************/
 /* Titel Bob de Bouwer */
+/************************/
 
 h1 {
   font-family: "BobFont", Arial, Helvetica, sans-serif;
@@ -80,24 +75,33 @@ h1 {
   text-align: center;
   font-size: 4em;
 
+  position: absolute;
+  left: .5em;
 }
 
-h1,h2,h3{
+h1,h2,h3 {
   text-shadow: .05em .05em 0 var(--randjetekst), .05em -.05em 0 var(--randjetekst), -.05em .05em 0 var(--randjetekst), -.05em -.05em 0 var(--randjetekst);
 }
 
+/****************/
 /* Losse tekst */
+/****************/
 
-ol li p{
+ol li p {
   padding-top: 2.1em;
-  color: var(  --colorbuttontext);
-  text-align: center;
-  text-shadow: 0.3em 0.3em 0.4em blue ;
+  color: var(--colorbuttontext);
+  text-shadow: 0.3em 0.3em .5em blue ;
+  bottom: 2em;
+  left: 5.2em;
+  
+  position: absolute;
 }
 
-/* borden */
+/***********/
+/* Borden */
+/**********/
 
-article{
+article {
   width: 40vw;
   height: 55vw;
   background-image: url(../images/bdbbord-01.png);
@@ -108,20 +112,22 @@ article{
   right: 5em;
 }
 
-/* tekst borden */
+/***************/
+/* Tekst borden */
+/***************/
 
-article p{
+article p {
   font-family: Arial, Helvetica, sans-serif;
   padding: 0vw 5vw;
   text-align: left;
   font-size: 1.2vw;
 }
 
-article h2,h3,p{
+article h2,h3,p {
   color:var(--colorp);
 }
 
-article h2{
+article h2 {
   font-family: "BobFont", Arial, Helvetica, sans-serif;
   margin-bottom: 0vw;
   margin-top: 1.5vw;
@@ -130,34 +136,45 @@ article h2{
   font-size: 5vw;
 }
 
-article h3{
+article h3 {
   font-family: "BobFont", Arial, Helvetica, sans-serif;
   padding: 0vw 5vw;
   text-align: left;
   font-size: 3em;
 }
 
+/**************/
 /* Img in bord */
+/**************/
 
-article img{
-  width: 18vw;
+article img {
+  width: 20vw;
+  padding-left: 6em;
+  padding-bottom: 6em;
+  padding-top: 2em;
   left: 6em;
-  position: absolute;
   bottom: 12em;
 }
 
-/* section button */
+/******************/
+/* Section button */
+/******************/
 
-section{
+section {
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-left: 13em;
+  margin-left: 13.2em;
   width: 40vw;
   display: grid;
+  bottom: 0.3em;
+
+  position: absolute;
 }
 
+/************/
 /* Buttons */
+/************/
 
-button{
+button {
   margin: 0.5em;
   margin-bottom: 2em;
   padding: 1em;
@@ -168,20 +185,22 @@ button{
   border: none;
 }
 
-button:hover{
+button:hover {
   background-color: var(--colorbuttonhover);
   cursor: url(../images/hammer.png) 4 12, auto;
 }
 
-button:active{
+button:active {
   background-color: var(--colorbuttonactive);
 }
 
-button:focus-visible{
+button:focus-visible {
   border: solid .5em var(--colorbuttonfocusvisable);
 }
 
+/*********************/
 /* Lijst voor blokjes */
+/*********************/
 
 ol:first-of-type {
 	grid-template-columns: repeat(5, 10vw);
@@ -193,7 +212,9 @@ ol:first-of-type {
 	display:grid;
 }
 
-/* bakstenen */
+/**************/
+/* Bakstenen */
+/**************/
 
 ol:first-of-type li:nth-of-type(-n + 10) {
 	background-color: var(--colorblokjes);
@@ -268,8 +289,10 @@ ol:first-of-type li:nth-of-type(10) {
 }
 
 
+/*************/
+/* De Bobjes */
+/*************/
 
-/* De bobjes */
 ol:first-of-type li:nth-last-of-type(-n + 4) {
 
   transform: scaleY(0);
@@ -286,7 +309,6 @@ ol:first-of-type li:nth-last-of-type(-n + 4).zichtbaar {
 ol:first-of-type li:nth-of-type(11) {
 	grid-column-start:1;
 	grid-row-start:5;
- 
 }
 
 ol:first-of-type li:nth-of-type(12) {
@@ -313,20 +335,44 @@ ol:first-of-type li:nth-of-type(15) {
   transition-delay: 2.15s;
 }
 
-/* bobjes plaatsen */
+/*******************/
+/* Bobjes plaatsen */
+/*******************/
 
 /* Bronnen bobje 1 en 2: https://www.youtube.com/watch?v=QSoH9aTrA-g, https://btb.fandom.com/wiki/Bob_the_Builder_(Original_Series)?file=Bob%2527s_1st_Prototype_Design_by_Curtis_Jobling_%2528Late_1997-Early_1998%2529%257E2.jpg */
 
-ol img{
+ol img {
   height: auto;
   width: 8em;
   justify-self: center;
   align-self: end;
 }
 
+ol img:hover {
+  animation-name: bobjespring;
+
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+}
+
+@keyframes bobjespring {
+
+  0%{
+    transform:translateY(0em);
+  }
+
+  50%{
+    transform:translateY(-1em);
+  }
+
+  100%{
+    transform:translateY(0em);
+  }
+}
+
 /* Bron bobje 3; http://www.eslevents.nl/kinderactiviteit/meet%20and%20greet/Meet%20and%20greet%20met%20bob%20de%20bouwer.htm */
 
-ol li:nth-of-type(13) img{
+ol li:nth-of-type(13) img {
   height: 13em;
   width: auto;
   padding-left: 2em;
@@ -334,7 +380,7 @@ ol li:nth-of-type(13) img{
 
 /* Bron bobje 4: https://easybookings.nl/artiest/bob-de-bouwer/ */
 
-ol li:nth-of-type(14) img{
+ol li:nth-of-type(14) img {
   width: auto;
   padding-left: 2em;
   transform: translateY(-4.5em);
@@ -342,27 +388,83 @@ ol li:nth-of-type(14) img{
 
 /* Bronnen Bobje 5: https://www.incognito-kledingverhuur.nl/bob-de-bouwer-kostuum-huren.html , https://www.fruugo.nl/orion-costumes-mens-bob-the-builder-kids-tv-cartoon-character-fancy-dress/p-35081352-96559243?language=en&ac=croud&gclid=CjwKCAiA9qKbBhAzEiwAS4yeDTeCd0zV8v8kGBjo-QACCIPyeJ6VoItPKMlMUCRRPTHW6tPCvRzFRBoCMpEQAvD_BwE*/
 
-ol li:nth-of-type(15) img{
+ol li:nth-of-type(15) img {
   height: 18em;
   width: auto;
   padding-left: 2em;
   transform: translateY(-4.5em);
 }
 
-/* kat */
+/*******/
+/* Kat */
+/*******/
 
-main > img{
+main > img:first-of-type {
   position: absolute;
-  bottom: 1em;
+  bottom: .2em;
   width: 15em;
   right: 2em;
 
   transition: .5s;
 }
 
-main > img:hover{
+main > img:first-of-type:hover {
   transform: rotate(5deg);
 }
+
+/****************/
+/* Zonnebloemen*/
+/****************/
+
+main > img:nth-of-type(2),
+main > img:nth-of-type(3),
+main > img:nth-of-type(4) {
+
+  animation-name: bloemendraaien;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bloemendraaien {
+
+  0%{
+    transform:rotate(0deg);
+  }
+
+  50%{
+    transform:rotate(-80deg);
+  }
+
+  100%{
+    transform:rotate(0deg);
+  }
+}
+
+main > img:nth-of-type(2) {
+  position: absolute;
+  width: 10em;
+  left: 2em;
+  top: 8em;
+  transition: .5s;
+}
+
+main > img:nth-of-type(3) {
+  position: absolute;
+  width: 10em;
+  left: 7em;
+  top: 11em;
+  transition: .5s;
+}
+
+main > img:nth-of-type(4) {
+  position: absolute;
+  width: 10em;
+  left: 2em;
+  top: 13em;
+  transition: .5s;
+}
+
+
 
 
 
