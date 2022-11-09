@@ -27,7 +27,7 @@ Mijn startniveau is: blauw
   <img src="readme-images/bdbschetsen21.jpg" width="375px" alt="ideetjes schetsen">
   <img src="readme-images/bobdebouwermindmap1.jpg" width="375px" alt="ideetjes schetsen">
 
-  ### Mijn eerste idee :
+  ### Mijn idee :
 
   <img src="./readme-images/bdbschets.eersteidee.png" width="375px" alt="eerste versie van ontwerp">
 
@@ -35,7 +35,7 @@ Mijn startniveau is: blauw
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
   - punt 1: Nieuwe code leren kennen, maakt niet uit wat
-  - punt 2: Beter worden in animeren (css)
+  - punt 2: Beter worden in animeren
   - Punt 3: Beter worden in het positioneren van items 
   - Punt 4: Beter worden in schaduws toevoegen 
   - Punt 5: Beter worden in een beetje responsive maken 
@@ -131,10 +131,10 @@ Mijn startniveau is: blauw
   - active 
 
   ### Bevinding 4: 
-  Ik moet de CSS properties nog op goede volgorde zetten.
+  Ik moet de CSS properties nog aanvullen. Ik heb deze nog niet op alle plekken toegepast.
 
   #### oplossing:
-  Het is netter als ik de properties op de goede volgorde zet, dus dat ga ik nog doen.  
+  Dit zal ik dus nog controleren en verbeteren. 
 
 
   ### Bevinding 5:
@@ -268,5 +268,15 @@ https://www.pintarcolorir.com/nl/desenhos/bob-o-construtor/pintar-colorir-bob-o-
 https://www.fruugo.nl/orion-costumes-mens-bob-the-builder-kids-tv-cartoon-character-fancy-dress/p-35081352-96559243?language=en&ac=croud&gclid=CjwKCAiA9qKbBhAzEiwAS4yeDTeCd0zV8v8kGBjo-QACCIPyeJ6VoItPKMlMUCRRPTHW6tPCvRzFRBoCMpEQAvD_BwE
 12. Bob de Bouwer helm
 https://www.incognito-kledingverhuur.nl/bob-de-bouwer-kostuum-huren.html
+13. Bob de Bouwer plaatje bord 1
+https://btb.fandom.com/wiki/Pilot_Episode?file=PilotEpisode8.png
+14. Bob de Bouwer plaatje bord 2
+https://btb.fandom.com/wiki/Bob_the_Builder_(Original_Series)?file=Bob%2527s_Early_1998_Design_by_Curtis_Jobling.jpg
+15. Bob de Bouwer plaatje bord 3 
+https://www.moviemeter.nl/series//series/show/863
+16. Bob de Bouwer plaatje bord 4
+https://www.primevideo.com/detail/Bob-De-Bouwer/0QKCMAMAO86TT72DRCGUQXX5M5?_encoding=UTF8&language=nl_NL
+17. Bob de Bouwer plaatje bord 5
+?????????
 
 </details>

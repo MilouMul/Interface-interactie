@@ -3,6 +3,12 @@ console.log("Howdy!");
 
 var hammerSound = new Audio("./Sounds/hammersound.mp3")
 
+// kat
+
+var Kat = document.querySelector("main > img");
+
+var miauwSound = new Audio("./Sounds/mixkit-big-wild-cat-scary-roar-88.wav")
+
 // Button 1
 
 var deButton1 = document.querySelector("button:nth-of-type(1)");
@@ -26,10 +32,12 @@ function showBlokje1() {
     var deH2 = document.querySelector("article h2");
     var deH3 = document.querySelector("article h3");
     var deP = document.querySelector("article p");
+    var DeImg = document.querySelector("article img");
 
     deH2.innerHTML = "Bob 1998";
     deH3.innerHTML = "Eerste prototype versie";
     deP.innerHTML = "Curtis Jobling ontworp een nieuwe Bob in 1998. Dit was het eerste prototype. Je ziet dat bob hier al een tuinpakje heeft aan gekregen en dat hij wat breder is gemaakt. ";
+    DeImg.src = "./images/plaatje1998bob.jpg";
 
     hammerSound.play();
 }
@@ -57,10 +65,12 @@ function showBlokje2en3() {
     var deH2 = document.querySelector("article h2");
     var deH3 = document.querySelector("article h3");
     var deP = document.querySelector("article p");
+    var DeImg = document.querySelector("article img")
 
     deH2.innerHTML = "Bob 1999";
     deH3.innerHTML = "De klassieke Bob";
-    deP.innerHTML = "Je ziet dat deze bob iets moderner is geworden/scherper. Hij heeft nog steeds zijn tuinpakje,  geruiten truitje en de gele helm aan. Ze gebruiken nu ook nog steeds stop-animatie om de filmpjes te maken. Deze video’s werden uitgezonden van 1999 tot 2004. Daarna steeds herhalingen.";
+    deP.innerHTML = "Je ziet dat deze bob iets moderner is geworden/scherper. Hij heeft nog steeds zijn tuinpakje,  geruiten truitje en de gele helm aan. Ze gebruiken nu ook nog steeds stop-frame-animatie om de filmpjes te maken. Deze video’s werden uitgezonden van 1999 tot 2004. Daarna steeds herhalingen.";
+    DeImg.src = "./images/plaatje1999bob.jpeg";
 
     hammerSound.play();
 }
@@ -91,10 +101,12 @@ function showBlokje4en5en6() {
     var deH2 = document.querySelector("article h2");
     var deH3 = document.querySelector("article h3");
     var deP = document.querySelector("article p");
+    var DeImg = document.querySelector("article img");
 
     deH2.innerHTML = "Bob nu";
     deH3.innerHTML = "De nieuwe Bob";
     deP.innerHTML = " Bob de bouwer wordt nu zelf verbouwd. Het bolletje mannetje is omgetoverd tot een slankere en stoerdere Bob. De tuinbroek wordt vervangen door een veiligheidsvestje, hij krijgt een stoer horloge om en heeft nu bruine ogen. Veel mensen zijn het hier niet mee eens. Ze gebruiken nu ook geen stop-frame-animatie meer, maar de hele Bob zal gemaakt worden met computeranimatie. Alles gaat veel soepeler. Ook leeft Bob in een hippie stad (spring City)";
+    DeImg.src = "./images/plaatjenubob.jpg";
 
     hammerSound.play();
     
@@ -129,12 +141,22 @@ function showBlokje7en8en9en10() {
     var deH2 = document.querySelector("article h2");
     var deH3 = document.querySelector("article h3");
     var deP = document.querySelector("article p");
+    var DeImg = document.querySelector("article img")
 
     deH2.innerHTML = "Bobje Milou";
     deH3.innerHTML = "De toekomstige Bob"
     deP.innerHTML = "Deze Bob kennen veel mensen nog niet. Ze verwachten dat dit Bobje rond 2025 uit zal komen, omdat er te veel haat is op de nieuwe Bob. Deze Bob zal weer gebruik maken van stop-frame-animatie. Verder is alles nog onbekend...";
+    DeImg.src = "./images/";
 
     hammerSound.play();
 
+}
+
+// kat
+
+Kat.addEventListener("click", katmiauw)
+
+function katmiauw(){
+    miauwSound.play();
 }
 

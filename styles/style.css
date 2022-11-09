@@ -25,6 +25,10 @@ button:not([disabled]) {
   cursor:pointer;
 }
 
+main{
+  position: relative;
+}
+
 
 
 
@@ -55,17 +59,6 @@ button:not([disabled]) {
   --backgroundcolor: rgb(16, 52, 125);
   --color-headings: rgb(251, 166, 19);
   --colorp: rgb(251, 166, 19);
-  --colorbuttontext: white;
-  --colorbackgroundbutton: rgb(33, 82, 217);
-  --colorborderbutton: rgb(31, 31, 93);
-  --colorblokjes:maroon;
-  --colorborderblokjes:rgb(78, 2, 2);
-  --colorhighlightblokjes: rgb(167, 52, 52);
-  --colorschawduwblokjes: rgb(101, 6, 6);
-  --colorbuttonhover: green;
-  --colorbuttonactive:maroon;
-  --colorbuttonfocusvisable: white;
-  --randjetekst: red;
   }
 }
 
@@ -99,6 +92,7 @@ ol li p{
   padding-top: 2.1em;
   color: var(  --colorbuttontext);
   text-align: center;
+  text-shadow: 0.3em 0.3em 0.4em blue ;
 }
 
 /* borden */
@@ -120,7 +114,7 @@ article p{
   font-family: Arial, Helvetica, sans-serif;
   padding: 0vw 5vw;
   text-align: left;
-  font-size: 1.8vw;
+  font-size: 1.2vw;
 }
 
 article h2,h3,p{
@@ -141,6 +135,15 @@ article h3{
   padding: 0vw 5vw;
   text-align: left;
   font-size: 3em;
+}
+
+/* Img in bord */
+
+article img{
+  width: 18vw;
+  left: 6em;
+  position: absolute;
+  bottom: 12em;
 }
 
 /* section button */
@@ -344,6 +347,21 @@ ol li:nth-of-type(15) img{
   width: auto;
   padding-left: 2em;
   transform: translateY(-4.5em);
+}
+
+/* kat */
+
+main > img{
+  position: absolute;
+  bottom: 1em;
+  width: 15em;
+  right: 2em;
+
+  transition: .5s;
+}
+
+main > img:hover{
+  transform: rotate(5deg);
 }
 
 
