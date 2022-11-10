@@ -1,5 +1,4 @@
 // JavaScript Document
-console.log("Howdy!");
 
 var hammerSound = new Audio("./Sounds/hammersound.mp3")
 
@@ -36,7 +35,7 @@ function showBlokje1() {
 
     deH2.innerHTML = "Bob 1998";
     deH3.innerHTML = "Eerste prototype versie";
-    deP.innerHTML = "Curtis Jobling ontworp een nieuwe Bob in 1998. Dit was het eerste prototype. Je ziet dat bob hier al een tuinpakje heeft aan gekregen en dat hij wat breder is gemaakt. ";
+    deP.innerHTML = "Curtis Jobling ontworp een nieuwe Bob in 1998. Dit was het eerste prototype. Je ziet dat bob hier al een tuinpakje aan heeft en dat hij wat breder is gemaakt. Wat ook opvallend is, is dat hij weer een gele helm op heeft. Dit is ook nooit veranderd als je kijkt naar de volgende Bobjes. ";
     DeImg.src = "./images/plaatje1998bob.jpg";
 
     hammerSound.play();
@@ -69,7 +68,7 @@ function showBlokje2en3() {
 
     deH2.innerHTML = "Bob 1999";
     deH3.innerHTML = "De klassieke Bob";
-    deP.innerHTML = "Je ziet dat deze bob iets moderner is geworden/scherper. Hij heeft nog steeds zijn tuinpakje,  geruiten truitje en de gele helm aan. Ze gebruiken nu ook nog steeds stop-frame-animatie om de filmpjes te maken. Deze video’s werden uitgezonden van 1999 tot 2004. Daarna steeds herhalingen.";
+    deP.innerHTML = "Je ziet dat deze bob iets moderner is geworden/scherper. Hij heeft nog steeds zijn tuinpakje en geruiten truitje aan. Ze gebruiken nu nog steeds stop-frame-animatie om de filmpjes te maken. Deze video’s werden uitgezonden van 1999 tot 2004. Daarna bleven het steeds herhalingen. Deze Bob is wel het langst op tv geweest en daarom komt deze Bob je waarschijnlijk het bekendst voor. Naar mijn mening is dit ook het leukste Bobje.";
     DeImg.src = "./images/plaatje1999bob.jpeg";
 
     hammerSound.play();
@@ -105,7 +104,7 @@ function showBlokje4en5en6() {
 
     deH2.innerHTML = "Bob nu";
     deH3.innerHTML = "De nieuwe Bob";
-    deP.innerHTML = " Bob de bouwer wordt nu zelf verbouwd. Het bolletje mannetje is omgetoverd tot een slankere en stoerdere Bob. De tuinbroek wordt vervangen door een veiligheidsvestje, hij krijgt een stoer horloge om en heeft nu bruine ogen. Veel mensen zijn het hier niet mee eens. Ze gebruiken nu ook geen stop-frame-animatie meer, maar de hele Bob zal gemaakt worden met computeranimatie. Alles gaat veel soepeler. Ook leeft Bob in een hippie stad (spring City)";
+    deP.innerHTML = " Bob de bouwer wordt nu zelf verbouwd. Het bolletje mannetje is omgetoverd tot een slankere en stoerdere Bob. De tuinbroek wordt vervangen door een veiligheidsvestje, hij krijgt een stoer horloge om en heeft nu bruine ogen. Veel mensen zijn het hier niet mee eens. Ze gebruiken nu ook geen stop-frame-animatie meer, maar Bob zal gemaakt worden met computeranimatie. Alles gaat veel soepeler. Ook leeft Bob in een hippie stad (spring City).";
     DeImg.src = "./images/plaatjenubob.jpg";
 
     hammerSound.play();
@@ -146,7 +145,7 @@ function showBlokje7en8en9en10() {
     deH2.innerHTML = "Bobje Milou";
     deH3.innerHTML = "De toekomstige Bob"
     deP.innerHTML = "Deze Bob kennen veel mensen nog niet. Ze verwachten dat dit Bobje rond 2025 uit zal komen, omdat er te veel haat is op de nieuwe Bob. Deze Bob zal weer gebruik maken van stop-frame-animatie. Verder is alles nog onbekend...";
-    DeImg.src = "./images/";
+    DeImg.src = "./images/bobmilouafbeelding.png";
 
     hammerSound.play();
 

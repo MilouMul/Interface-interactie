@@ -83,9 +83,9 @@ h1,h2,h3 {
   text-shadow: .05em .05em 0 var(--randjetekst), .05em -.05em 0 var(--randjetekst), -.05em .05em 0 var(--randjetekst), -.05em -.05em 0 var(--randjetekst);
 }
 
-/****************/
-/* Losse tekst */
-/****************/
+/*********************/
+/* Losse tekst (1997) */
+/*********************/
 
 ol li p {
   padding-top: 2.1em;
@@ -223,7 +223,6 @@ ol:first-of-type li:nth-of-type(-n + 10) {
   inset -1em -1em var( --colorschawduwblokjes);
 
 	opacity:.1;
-	
 	transition:.5s;
 }
 
@@ -294,7 +293,6 @@ ol:first-of-type li:nth-of-type(10) {
 /*************/
 
 ol:first-of-type li:nth-last-of-type(-n + 4) {
-
   transform: scaleY(0);
   transform-origin: center bottom;
 
@@ -302,7 +300,6 @@ ol:first-of-type li:nth-last-of-type(-n + 4) {
 }
 
 ol:first-of-type li:nth-last-of-type(-n + 4).zichtbaar {
-
   transform: scaleY(1);
 }
 

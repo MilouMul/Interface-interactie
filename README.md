@@ -23,12 +23,11 @@ Mijn startniveau is: blauw
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
 
   ### De eerste schetsen:
-  <img src="./readme-images/bdbschetsen11.jpg" width="375px" alt="ideetjes schetsen">
-  <img src="readme-images/bdbschetsen21.jpg" width="375px" alt="ideetjes schetsen">
-  <img src="readme-images/bobdebouwermindmap1.jpg" width="375px" alt="ideetjes schetsen">
+  <img src="./readme-images/bdbschetsen11.jpg" width="300px" alt="ideetjes schetsen">
+  <img src="readme-images/bdbschetsen21.jpg" width="300px" alt="ideetjes schetsen">
+  <img src="readme-images/bobdebouwermindmap1.jpg" width="300px" alt="ideetjes schetsen">
 
-  ### Mijn idee :
-
+  ### Mijn eerste idee :
   <img src="./readme-images/bdbschets.eersteidee.png" width="375px" alt="eerste versie van ontwerp">
 
 
@@ -60,12 +59,12 @@ Mijn startniveau is: blauw
 
 
   ### Bevinding 2:
-  Ook kon ik weinig info vinden over Bob de Bouwer. Daarom zijn we samen gaan zoeken om meer informatie te vinden. 
+  Ook kon ik weinig informatie vinden over Bob de Bouwer. Daarom zijn we samen gaan zoeken om meer informatie te vinden. 
   We hebben een aantal sites gevonden en die linkjes hebben we in het miro bord gezet.
 
   #### oplossing:
   Door de linkjes in het miro bord heb ik meer informatie kunnen vinden, waardoor ik meer ideëen kreeg voor het ontwerp. Ook 
-  heb ik nu wat meer informatie om te vertellen over de Bobjes. 
+  heb ik nu wat meer informatie om te vertellen over de Bobjes. Ik moet alleen nog bedenken, hoe ik die informatie ga laten zien.
 
 
   ### Bevinding 3:
@@ -73,8 +72,7 @@ Mijn startniveau is: blauw
   bij elkaar te zetten en een leuke achtergrond toe te voegen. Het tweede idee was om Bob steeds omhoog te laten bouwen met bakstenen. 
 
   #### oplossing:
-  Uiteindelijk heb ik ervoor gekozen om het tweede idee uit te werken. Dit idee is wel het moeilijkste idee om uit te werken, maar ik ga het gewoon 
-  proberen. Het eerste idee had ook 2 schermen nodig en dat mag niet. Ik moet nog wel bedenken hoe ik de informatie laat zien.
+  Uiteindelijk heb ik er toch voor gekozen om het tweede idee uit te werken (met de bakstenen). Dit idee is wel het moeilijkste idee om uit te werken, maar ik ga het gewoon proberen. Het eerste idee had ook 2 schermen nodig en dat mag niet. 
 
 
   ### Bevinding 4:
@@ -88,7 +86,7 @@ Mijn startniveau is: blauw
   Als ik vormen ga gebruiken in mijn ontwerp, zouden vierkante vormen beter passen bij Bob de Bouwer. 
 
   #### oplossing:
-  Ik ga dus de blokjes (bakstenen) vierkant maken. Verder heb ik nog geen andere vormen gebruikt in mijn ontwerp.
+  Ik ga dus de blokjes (bakstenen) vierkant maken. Verder heb ik nog geen andere vormen gebruikt in mijn ontwerp. Ik ga goed kijken naar oude afbeeldingen/filmpjes voor inspiratie.
 
 
 </details>
@@ -103,22 +101,22 @@ Mijn startniveau is: blauw
 
    ### Feedbackformulier:
 
-  <img src="./readme-images/feedbackformulierbdb1.jpg" width="375px" alt="Feedbackformulier">
-  <img src="./readme-images/feedbackformulierbdb2.jpg" width="375px" alt="Feedbackformulier">
+  <img src="./readme-images/feedbackformulierbdb1.jpg" width="300px" alt="Feedbackformulier">
+  <img src="./readme-images/feedbackformulierbdb2.jpg" width="300px" alt="Feedbackformulier">
   
   ### Bevinding 1:
   Ik moet mijn site nog iets meer responsive maken. Als ik de site iets kleiner maak, dan loopt de tekst nog over mijn bord heen. 
 
   #### oplossing:
-  Ik kan dan aanpassen door het bord iets groter te maken, of ik kan de tekst scrolbaar maken. Uiteindelijk heb ik ervoor gekozen om 
-  het bord groter te maken, omdat de scrolbare tekst er niet mooi uit zag met het bord. 
+  Ik kan dat aanpassen door het bord iets groter te maken, of ik kan de tekst scrolbaar maken. Uiteindelijk heb ik ervoor gekozen om 
+  het bord groter te maken, omdat de scrolbare tekst er niet mooi uit zag met het bord dat ik heb gemaakt. 
 
 
   ### Bevinding 2:
-  Ik moet er nog voor zorgen dat je door de site heen kan tabben. 
+  Ik moet er nog voor zorgen dat je door de site heen kan tabben. Daar was ik nog niet aan toe gekomen. 
 
   #### oplossing:
-  Door meer states toe te voegen, hoop ik dit op te lossen. Ik wil witte randjes om mijn buttons maken, zodat het duidelijk is. 
+  Door meer states toe te voegen, hoop ik dit op te lossen. Ik wil witte randjes om mijn buttons maken, zodat het duidelijk is. Ik houd het simpel. 
 
 
   ### Bevinding 3:
@@ -130,15 +128,19 @@ Mijn startniveau is: blauw
   - focus-visible
   - active 
 
+  <img src="./readme-images/StatesCode.png" width="375px" alt="Voorbeeld van de code/states">
+
   ### Bevinding 4: 
   Ik moet de CSS properties nog aanvullen. Ik heb deze nog niet op alle plekken toegepast.
 
   #### oplossing:
   Dit zal ik dus nog controleren en verbeteren. 
 
+  <img src="./readme-images/RootCode.png" width="375px" alt="voorbeeld van de root">
+
 
   ### Bevinding 5:
-  Mijn laatste Bobje valt over de tekst heen. Zie foto hieronder.
+  Mijn laatste Bobje valt over de tekst heen. Zie foto hieronder. Aan de ene kant vind ik het ook wel weer een speels effect. Dat past wel bij Bob de Bouwer.
 
   <img src="./readme-images/bdbverbeteren.tekstverwijderen.png" width="375px" alt="voorbeeld van bob die over de tekst heen valt">
 
@@ -152,7 +154,7 @@ Mijn startniveau is: blauw
   <img src="./readme-images/bdbverbeteren.tekstopmaak.png" width="375px" alt="voorbeeld tekstopmaak, die nog niet goed is">
 
   #### oplossing:
-  Ik zal nog een keer kijken naar de tekst en ook het lettertype daarbij. 
+  Ik zal nog een keer kijken naar de positie van de tekst en ik ga toch naar een ander lettertype kijken, want ik vind dit lettertype nog niet helemaal aansluiten bij Bob de Bouwer.  
   
 
   ### Wat ik zelf nog wil aanpassen:
@@ -177,31 +179,31 @@ Mijn startniveau is: blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Code is netjes en goed leesbaar. De comments kunnen wel iets groter, zodat ze sneller te zien zijn. 
+  Code is netjes en goed leesbaar. De comments kunnen wel iets groter, zodat ze sneller te zien zijn tussen je code.
 
   #### oplossing:
-  Ik zal de belangrijkste comments groter maken in mijn CSS en JS
+  Ik zal de belangrijkste comments groter maken in mijn CSS en JS. Ik vond dit een goeie tip, omdat ik het zelf ook al lastig te lezen vond.
 
 
   ### Bevinding 2:
-  Er mist een foto bij de laatste Bob (mezelf)
+  Elke Bob heeft een foto in het bord staan, behalve bij je eigen Bob. Ook als Stela mijn site opent in GitHub, was mijn eigen Bob niet te zien op de steentjes. 
 
   #### oplossing:
-  Ik zal nog een foto van mezelf toevoegen toen ik klein was en het bob de bouwer spel aan het spelen was.
+  Ik zal nog een foto van mezelf toevoegen toen ik klein was en ga kijken wat er mis is met mijn afbeelding. Ook zal ik mijn GitHub nog eens laten checken door iemand.
 
 
   ### Bevinding 3:
   De eerste Bob is een beetje verstopt, omdat hij niet op een blokje staat. 
 
   #### oplossing:
-  Ik zou een klein stukje van een blokje toe kunnen voegen, maar dat ga ik niet meer doen 
+  Ik zou een klein stukje van een blokje toe kunnen voegen, zodat hij iets meer opvalt.Dit ga ik alleen niet meer doen. 
 
 
   ### Bevinding 4:
-  Het plaatje gaat iets over de tekst heen als je het scherm iets kleiner maakt. Als dat niet meer zo is, is het een beetje responsive (dus genoeg)
+  Het plaatje gaat iets over de tekst heen als je het scherm iets kleiner maakt. Verder is de site voldoende responsive.
 
   #### oplossing:
-  Ik ga het plaatje kleiner maken of iets in de css aanpassen zodat hij wel responsive is. 
+  Ik ga het plaatje kleiner maken of iets in de css aanpassen zodat hij wel responsive is. Waarschijnlijk heb ik de plaatjes op position absolute staan.
 
 
   ### Bevinding 5:
@@ -218,7 +220,7 @@ Mijn startniveau is: blauw
   Ik kan nog een state toevoegen aan mijn buttons. Ik ga kijken of ik daar nog tijd voor heb. Dat zou dan met JS moeten omdat het geen link is (visited).
 
 
-  ### Bevinding 7:
+  ### Extra:
   Leuk concept, 5e Bob is heel uniek en dat hamer geluid is erg grappig. 
 
 </details>
@@ -259,22 +261,22 @@ Mijn startniveau is: blauw
 
   - Het bord uit de bovenkant van het scherm laten animeren wanneer je klikt op een button.
 
-   <img src="readme-images/bordanimeren.jpeg" width="375px" alt="Voorbeeld bord animeren">
+   <img src="readme-images/bordanimeren.jpeg" width="250px" alt="Voorbeeld bord animeren">
 
   - De plaatjes in het bord een andere opmaak geven (los van elkaar)
 
-   <img src="readme-images/plaatjeshetzelfde.jpeg" width="375px" alt="Voorbeeld plaatjes dezelfde grote geven">
+   <img src="readme-images/plaatjeshetzelfde.jpeg" width="250px" alt="Voorbeeld plaatjes dezelfde grote geven">
 
   - De buttons onder de blokjes laten staan en de blokjes zelf kleiner maken, zodat je niet hoeft te scrollen.
 
-    <img src="readme-images/buttonsandersplaatsen.jpeg" width="375px" alt="Voorbeeld button anders plaatsen">
+    <img src="readme-images/buttonsandersplaatsen.jpeg" width="250px" alt="Voorbeeld button anders plaatsen">
 
   - De laatste 2 Bobjes springen nu iets lager dan de rest. Dat had ik hetzelfde willen maken.
 
-  <img src="readme-images/bobanimeren.jpeg" width="375px" alt=" Voorbeeld van bob animeren">
+  <img src="readme-images/bobanimeren.jpeg" width="250px" alt=" Voorbeeld van bob animeren">
 
   - Knop toevoegen aan het eerste Bobje 
-  - Nog een blokje toevoegen, zodat Bob 1 ook op een blokje staat.
+  - Nog een blokje toevoegen, zodat Bob 1 ook op een blokje staat en dus beter opvalt.
 
 
 </details>
@@ -284,6 +286,8 @@ Mijn startniveau is: blauw
 
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
+
+## sorry deze plaatjes/tekst heb ik gestolen :)
 
 1. Afbeelding Bob de bouwer 1997 
 https://www.youtube.com/watch?v=QSoH9aTrA-g 
