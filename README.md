@@ -277,6 +277,7 @@ Mijn startniveau is: blauw
 
   - Knop toevoegen aan het eerste Bobje 
   - Nog een blokje toevoegen, zodat Bob 1 ook op een blokje staat en dus beter opvalt.
+  - Kunnen tabben tussen de buttons is mij wel gelukt alleen hij pakt de kat niet mee.
 
 
 </details>
